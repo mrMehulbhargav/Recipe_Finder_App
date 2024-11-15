@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder App</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Main Content -->
+    <div id="main-content" class="container py-4">
+        <h1 class="text-center">Recipe Finder App</h1>
+        <form id="recipe-form" class="mb-4">
+            <div class="mb-3">
+                <label for="ingredient" class="form-label">Enter Ingredients:</label>
+                <input type="text" class="form-control" id="ingredient" placeholder="e.g., chicken, onion">
+            </div>
+            <div class="mb-3">
+                <button type="button" id="search-btn" class="btn btn-primary">Search Recipes</button>
+            </div>
+        </form>
+        <div id="recipe-list" class="row"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mehul Bhargav | 
+            <a href="https://www.linkedin.com/in/mrmehulbhargav" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/mrMehulbhargav" target="_blank">GitHub</a> |
+            <a href="https://leetcode.com/u/mrmehulbhargav/" target="_blank">LeetCode</a>
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="Js/script.js"></script>
+</body>
+</html>
